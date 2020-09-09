@@ -3,6 +3,7 @@ import CounterContext from '../contexts/counter';
 
 const Counter:React.FC = () => {
   return (
+    // ①Consumerコンポーネントからcontextを受け取る
     <CounterContext.Consumer>
       {(context) => {
 
@@ -10,6 +11,7 @@ const Counter:React.FC = () => {
           throw new Error("counter context not found");
         }
 
+        // ②contextの内容を設定する
         return (
           <React.Fragment>
             <div>count: {context.count}</div>

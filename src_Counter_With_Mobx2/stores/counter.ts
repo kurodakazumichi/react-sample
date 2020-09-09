@@ -1,7 +1,5 @@
 import { observable, action, IObservableValue } from 'mobx';
 
-
-
 const createStore = () => {
   const store = {
     count: observable.box(0),

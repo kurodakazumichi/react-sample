@@ -1,4 +1,4 @@
-# Counter With Context
+# Counter With Mobx 1
 
 Mobxを使ったカウンターサンプルプログラム
 

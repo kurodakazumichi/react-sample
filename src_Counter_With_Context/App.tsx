@@ -3,7 +3,6 @@ import CounterContext, { ICounterContext } from './contexts/counter';
 import Counter from './components/Counter';
 
 interface IProps {
-
 }
 
 interface IState extends ICounterContext {
